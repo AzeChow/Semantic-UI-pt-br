@@ -44,7 +44,7 @@ body {
 }
 
 body#example {
-  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif/*rtl:prepend:"Droid Arabic Kufi","Droid Sans", */;
   background: #FCFCFC url(../images/bg.jpg) repeat;
   margin: 0px;
   padding: 0px;
@@ -60,7 +60,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif/*rtl:prepend:"Droid Arabic Kufi","Droid Sans", */;
 }
 
 /*
@@ -93,12 +93,14 @@ h4 + p {
 pre {
   background-color: #F0F0F0;
 }
+/*rtl:ignore*/
 pre.console {
   background-color: transparent;
   line-height: 1.6;
   font-family:  'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
   height: 300px;
   overflow: auto;
+  direction:ltr;
 }
 code {
   background-color: rgba(0, 0, 0, 0.02);
@@ -606,7 +608,7 @@ body.guide .main.container > * {
   margin: 0em;
   padding: 0.5em !important;
 }
-#example .position.example .segment {
+#example .position.example > .segment {
   width: 250px;
   height: 250px;
 }
@@ -712,6 +714,7 @@ body.guide .main.container > * {
   transition:
     all 0.2s ease-out
   ;
+  -webkit-backface-visibility: hidden;
 }
 #example .icon.example .grid .column:hover .icon {
   color: #009FDA;
@@ -863,11 +866,13 @@ body.guide .main.container > * {
 #example div.code.hide {
   display: none;
 }
+/*rtl:ignore*/
 #example div.code {
   position: relative;
   width: 100%;
   height: 200px;
   text-align: left;
+  direction:ltr;
 }
 #example div.code {
   margin: -1em;
@@ -1198,6 +1203,8 @@ body.guide .main.container > * {
 body.progress .ui.progress .bar {
   -webkit-animation: finish 10s ease-in-out infinite;
   -moz-animation: finish 10s ease-in-out infinite;
+  -ms-animation: finish 10s ease-in-out infinite;
+  animation: finish 10s ease-in-out infinite;
 }
 
 @-webkit-keyframes finish {
@@ -1320,10 +1327,6 @@ body.progress .ui.progress .bar {
   #example .container {
     width: auto;
     margin: 0% 30px 0px;
-  }
-  #example
-  #example .right.attached.launch {
-    display: none;
   }
 }
 @media only screen and (max-width : 780px) {

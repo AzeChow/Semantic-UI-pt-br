@@ -66,9 +66,6 @@ i.icon {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  font-smoothing: antialiased;
 }
 
 i.icon.left:before { content: "\f060"; }
@@ -119,6 +116,7 @@ i.icon.book:before { content: "\f02d"; }
 i.icon.bookmark.empty:before { content: "\f097"; }
 i.icon.bookmark:before { content: "\f02e"; }
 i.icon.box.arrow.down:before { content: "\f150"; }
+/*rtl:ignore*/
 i.icon.box.arrow.right:before { content: "\f152"; }
 i.icon.box.arrow.up:before { content: "\f151"; }
 i.icon.briefcase:before { content: "\f0b1"; }
@@ -353,12 +351,12 @@ i.icon.signal:before { content: "\f012"; }
 i.icon.sitemap:before { content: "\f0e8"; }
 i.icon.skype:before { content: "\f17e"; }
 i.icon.smile:before { content: "\f118"; }
+i.icon.sort.ascending:before { content: "\f0de"; }
+i.icon.sort.descending:before { content: "\f0dd"; }
 i.icon.sort.alphabet.descending:before { content: "\f15e"; }
 i.icon.sort.alphabet:before { content: "\f15d"; }
-i.icon.sort.ascending:before { content: "\f0de"; }
 i.icon.sort.attributes.descending:before { content: "\f161"; }
 i.icon.sort.attributes:before { content: "\f160"; }
-i.icon.sort.descending:before { content: "\f0dd"; }
 i.icon.sort.order.descending:before { content: "\f163"; }
 i.icon.sort.order:before { content: "\f162"; }
 i.icon.sort:before { content: "\f0dc"; }
@@ -458,8 +456,6 @@ i.icon.star {
 }
 
 /* left side icons */
-i.icon.left,
-i.icon.left,
 i.icon.left {
   width: auto;
   margin: 0em 0.5em 0em 0em;
@@ -467,8 +463,6 @@ i.icon.left {
 
 /* right side icons */
 i.icon.search,
-i.icon.up,
-i.icon.down,
 i.icon.right {
   width: auto;
   margin: 0em 0em 0em 0.5em;
@@ -691,6 +685,7 @@ i.square.inverted.icon {
 i.inverted.icon {
   background-color: #222222;
   color: #FFFFFF;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /*-------------------
@@ -711,6 +706,9 @@ i.red.icon {
 }
 i.purple.icon {
   color: #564F8A !important;
+}
+i.orange.icon {
+  color: #F05940 !important;
 }
 i.teal.icon {
   color: #00B5AD !important;
@@ -738,6 +736,10 @@ i.inverted.red.icon {
 }
 i.inverted.purple.icon {
   background-color: #564F8A !important;
+  color: #FFFFFF !important;
+}
+i.inverted.orange.icon {
+  background-color: #F05940 !important;
   color: #FFFFFF !important;
 }
 i.inverted.teal.icon {

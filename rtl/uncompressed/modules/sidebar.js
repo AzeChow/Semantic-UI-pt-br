@@ -202,15 +202,13 @@ $.fn.sidebar = function(parameters) {
         add: {
           bodyCSS: function(direction, distance) {
             var
-              invertDirection,
               style
             ;
             if(direction !== className.bottom) {
-              invertDirection = direction === 'right' ? -1 : 1;
               style = ''
                 + '<style title="' + namespace + '">'
                 + 'body.pushed {'
-                + '  margin-left: ' + invertDirection * distance + 'px !important;'
+                + '  margin-' + direction + ': ' + distance + 'px !important;'
                 + '}'
                 + '</style>'
               ;
@@ -480,8 +478,8 @@ $.fn.sidebar.settings = {
   name        : 'Sidebar',
   namespace   : 'sidebar',
 
+  debug       : false,
   verbose     : true,
-  debug       : true,
   performance : true,
 
   useCSS      : true,

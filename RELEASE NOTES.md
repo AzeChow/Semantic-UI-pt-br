@@ -1,5 +1,178 @@
 ## RELEASE NOTES
 
+### Version 0.15.4 - April 04, 2014
+
+**Fixes**
+- **Rating** - Fixes issue where rating was behaving erratically in Chrome
+
+### Version 0.15.3 - April 04, 2014
+
+**Changes**
+- **Transition** - CSS Transitions now work in legacy FF (FF > 12)
+- **All UI** - Adds support for legacy FF vendor prefixes (FF > 12)
+
+**Docs**
+- Adds more examples for static checkbox/radio boxes with HTML only
+- Fixes a variety of issues with malformed examples (thanks community)
+
+### Version 0.15.2 - Mar 28, 2014
+
+**Changes**
+- **All Modules** - Debug is now disabled by default
+
+**Fixes**
+- **Step** - Fixes issue with border radius on vertical steps
+- **Icon** - Orange color is now available for icon
+- **Menu** - Fixes formatting of attached segments with menus
+
+### Version 0.15.1 - Mar 14, 2014
+
+**Critical Fixes**
+- **Dropdown** - Typo in dropdown css was causing selection dropdowns not to appear
+
+### Version 0.15.0 - Mar 14, 2014
+
+**Enhancements**
+- **Step** - Vertical Steps now have option to have two line items
+- **Form** - Forms, Dropdowns, and Inputs now have matching padding size, and use 1em font size to appear same size as surrounding text
+- **Icon** - Icons on dark backgrounds should render better in OSX
+- **Modal** - Modals now have an onVisible and onHidden callback for after animation ends
+- **Form Validation** - Form validation now automatically revalidates a selection dropdown on change when invalid
+
+**Critical Fixes**
+- **Modal** - Browsers without RequestAnimationFrame (Opera) were erroring on modal show
+- **Dropdown** - Element's with numeric ``data-text`` values were erroring when selected
+
+**Fixes**
+- **Modal** - Modal onShow and onHide occurs before transition starts, allowing for class name changes not to be reset
+- **Dropdown** - Default selection text was not appearing when a dropdown had a value that was ``false`` or ``0``
+- **Input** - Fixes slight error in corner label rounding **Thanks MohammadYounes**
+- **Reveal** - Reveals will now show on active, for touch devices **Thanks Illyism**
+- **Table** - Fixes rounding on tables with multiple tfoot elements **Thanks webdesserts**
+- **Icon** - Hide and unhide icon were accidentally given opposite names
+- **Checkbox** - Checkboxes can now have multiple inputs inside, for use with .NET and other languages that insert their own hidden inputs
+
+**Project**
+- **iOS** - Active styles, for example pressed in buttons, now appear in docs on touch devices
+
+### Version 0.14.0 - Mar 03, 2014
+
+**Enhancements**
+- **Modal** - Modal now uses requestAnimationFrame instead of debounced callback
+- **Dropdown** - Dropdown now has error state **Thanks Musatov**
+- **Form** - Form fields with errors will now properly style dropdown elements **Thanks Musatov**
+- **Step** - Steps can now appear vertically
+
+**Fixes**
+- **List** - Bulleted and horizontal lists now appear correctly in IE10-11
+
+**Project**
+- **NPM** - Docpad is now moved to a dev dependency **Thanks kapouer**
+
+### Version 0.13.1 - Feb 28, 2014
+
+**Fixes**
+- **Modal** - Fixes modal positioning appearing slightly below center on second load
+- **Checkbox** - Fixes checkbox appearance inside inverted forms
+- **Input** - Fixes ui input to inherit form sizing
+- **Accordion** - Fixes issues with accordion rules being too specific, causing several common usages of accordions to break
+- **Form Validation** -  Fixes form validation regular expression matching **Thanks icefox0801**
+
+
+### Version 0.13.0 - Feb 20, 2014
+
+**Enhancements**
+- **Label** - Corner labels now are coupled to have rounded edges with components with rounded edges like input
+- **Form** - Grouped form fields now have responsive styles for mobile
+- **Modal** - Modal will now work when modal is taller than page's content
+- **Checkbox** - Checkboxes now also trigger DOM ``change`` event
+- **Accordion** - Accordions now preserve inline styles when animating
+- **Form Validation** - Form validation now rechecks on all form change events, not just input change
+
+**Fixes**
+- **Menu** - Fixes 2px border on last element in horizontal menus
+- **Menu** - Fixes dropdown formatting when used **inside* a menu item
+- **Menu** - Fixes formatting of grouped icon buttons inside menus
+- **Modal** - Fixes z-index of modal close to appear above ``relative/absolute`` modal content on mobile
+- **Dimmer** - Dimmers are less buggy when used with ``on: 'hover``
+
+
+### Version 0.12.5 - Feb 04, 2014
+
+**Enhancement**
+- **Button** - Or buttons can now have text specified using ``<div class="or" data-text"text">`` with alternate text *Thanks MohammadYounes*
+
+**Fixes**
+- **Popup** - Fixes issue where popups using ``title`` attribute to store data were losing title content instead of correctly restoring it
+- **Modal** - Fixes an issue where modal may not position correctly in some cases *Thanks GianlucaGuarini*
+- **Modal** - Fixes modal throwing an error when transition is not included *Thanks robertoles*
+
+### Version 0.12.4 - Jan 29, 2014
+
+**Fixes**
+- **Form** - Fixes issue with onSuccess not allowing cancellation of form submit in form validation
+- **Input** - Fixes ``ui buttons`` to work inside an ``ui action input`` **Thanks MohammadYounes **
+- **Items** - Fixes ``ui horizontal items`` to work correctly, missing comma **Thanks mishak87**
+
+**Project**
+- **RTL** - Adds RTL hinting for some files **Thanks MohammadYounes**
+- **Specs** - Adds additional JSON spec files for future use with generators **Thanks brigand**
+
+### Version 0.12.3 - Jan 24, 2014
+
+**Fixes**
+- **Message** - Fixes some issues with margins sometimes not appearing with ``attached message`` **thanks joltmode**
+- **Item** - Fixes color repeating to be consistent for items **thanks skysplit**
+
+### Version 0.12.2 - Jan 21, 2014
+
+**Enhancement**
+- **Form Validation** - Adding custom validation is now simpler, uses syntax ``$('.form').form('add prompt', identifier, 'Error message');``
+
+**Fixes**
+- **Menu** - Slightly updates input sizes inside menus
+- **Grid** - Fixes grid ``only tablet/mobile/computer`` showing both devices on exact pixel of breakpoint, i.e. 768px
+- **Icon** - Fixes ascending alphabetic inheritance
+
+### Version 0.12.1 - Jan 15, 2014
+
+**Fixes**
+- **LESS** - Fixes typo breaking less parsing **thanks DVSoftware**
+- **Menu** - Fixes buttons using ``<a>`` tag from inheriting link styles. **thanks joltmode**
+- **Menu** - Fixes ``action input`` to work inside menus  **thanks joltmode**
+- **Modal** - Fixes possible race conditions in animations of modal **thanks dos1**
+- **Message** - Prevents close icon from being misformatted in icon message **thanks MohammadYounes**
+
+**Docs**
+- **Icons** - Fixes some icon code samples in docs **thanks mishak87**
+Some updates to docs formatting
+
+### Version 0.12.0 - Jan 06, 2014
+
+**Major Fixes**
+- **Dropdown** - Fixes dropdowns links not working on touch devices
+- **Input** - Fixes input placeholder styles to work (accidental regex replace)
+
+**Major Updates**
+- **Transition** - Transitions will now, by default, prevent the current animation from being queued while it is actively animating the same animation
+- **Modal** - New setting ``allowMultiple`` lets you specify whether multiple modals can be shown at once
+- **Modal** - New setting ``detachable`` allows you to specify whether modal DOM element can be moved (Thanks MohammadYounes)
+
+**Updates**
+- **Dropdown** - Default value is now stored on init, and can be restored using 'restore defaults' behavior
+- **Modal** - Buttons can now use both ``cancel/deny`` or ``ok/approve``, for approve/deny events to fire (Thanks MohammadYounes)
+- **Menu** - Fixed menu now adds padding on the next element if it is a grid
+- **Progress Bar** - Adds warning color
+
+**Fixes**
+- **Icon** - Fixes unnecessary formatting on thumbs up/down
+- **Dropdown** - Fixes touchmove event not clearing on touch devices causing unnecessary overhead
+- **Input** - Action inputs can now be fluid
+- **Sidebar** - Fixes issue where top sidebar was receiving left offset
+- **Menu** - Fixes z-index on fixed menu to exist just below modals
+- **Dropdown** - Fixes issue where last match was returned, not prioritizing value over text
+- **Form** - Fixes all validation input to be trimmed for whitespace
+
 ### Version 0.11.0 - Dec 25, 2013
 
 ### Merry Christmas!

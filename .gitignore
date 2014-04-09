@@ -3,6 +3,8 @@ node_modules
 node/server.json
 test/coverage/
 coverage/
+semantic.config
+semanticui/
 
 # Numerous always-ignore extensions
 *.diff
@@ -31,5 +33,4 @@ Thumbs.db
 nbproject
 *.sublime-project
 *.sublime-workspace
-.dropbox
-paginas-em-traducao.txt
+backup-traduções-antigas
