@@ -1,84 +1,84 @@
-# Contributing 
+# Contribuindo
 
-## Introduction
+## Introdução
 
-There are a variety of ways to contribute to the development of Semantic. We are a very new project and are looking for an enthusiastic and like-minded group of core contributors. We use the lovely free project management software [Trello](https://trello.com/jack148/recommend) for keeping track of project issues and updates.
+Há várias maneiras de contribuir com o desenvolvimento do *Semantic*. Somos um projeto muito novo e estamos procurando grupos de entusiastas e pessoas que pensem da mesma forma que os colaboradores do *core* do Semantic. Usamos o livre e encantador software de gerenciamento de projeto [Trello](https://trello.com/jack148/recommend) para ficar atualizados com as questões do projeto.
 
-Some Trello boards are open publicly, others are limited to contributors. Anyone can share ideas for the direction of the project using our public boards.
+Alguns quadros no Trello estão abertos ao público, outros são limitados aos colaboradores. Qualquer pessoa pode compartilhar idéias sobre o projeto usando nossos quadros públicos.
 
-If you are looking to be added to contributor board on Semantic and are active in development, please reach out to me by e-mail [jack@myfav.es](mailto:jack@myfav.es)
+Se você quiser ser adicionado ao quadro de colaboradores do *Semantic* e estiver ativo na programação, por favor envie um e-mail (em inglês) ao autor [jack@myfav.es](mailto:jack@myfav.es)
 
-### Publicity
+### Publicidade
 
-One of the easiest ways to support Semantic UI is to get the word out
+Uma das maneiras mais fáceis de manter o *Semantic UI* é disseminar o projeto mundo à fora.
 
-## Making Semantic Better
+## Fazendo um *Semantic* melhor
 
-### Bugs & Issues
+### *Bugs* & Problemas
 
-Please submit any bugs you encounter when using the library to our [Github Issues Tracker](https://github.com/jlukic/Semantic-UI/issues?state=open).
+Por favor, envie quaisquer *bugs* que você encontrar ao utilizar a biblioteca para o nosso [Rastreador de Problemas no Github](https://github.com/jlukic/Semantic-UI/issues?state=open).
 
-When submiting a bug report, please include a set of steps to reproduce the issue and any related information, browser, OS etc. If we can't see the issue then it will make solving things much more difficult.
+Quando você reportar um *bug*, por favor inclua um conjunto de passos para reproduzir o problema e qualquer informação relacionada, *browser*, sistema operacional, etc. Caso contrário, não poderemos ver o problema, e isso tornará as coisas mais difíceis.
 
-Please create a fork of this [jsfiddle](http://jsfiddle.net/pMDsH/) to demonstrate bugs.
+Por favor, crie uma bifurcação deste [jsfiddle](http://jsfiddle.net/pMDsH/) para demonstrar *bugs*.
 
-### Style Guide
+### Guia de Estilo
 
-Contributors should read over the coding guidelines for the project. Most importantly, the guide for language, as it is one of the most important parts about Semantic UI.
+Todos os colaboradores devem ler sobre as diretrizes de codificação do projeto. E o mais importante, ler o guia da linguagem, pois é uma das partes mais importantes partes do *Semantic UI*.
 
-[Language](http://semantic-ui.com/guide/styleguide.html)
-[CSS](http://semantic-ui.com/guide/cssguide.html)
-[Javascript](http://semantic-ui.com/guide/javascriptguide.html)
+[Linguagem](http://br.semantic-ui.com/guide/styleguide.html)
+[CSS](http://br.semantic-ui.com/guide/cssguide.html)
+[Javascript](http://br.semantic-ui.com/guide/javascriptguide.html)
 
-### Pull Requests
+### *Pull Requests*
 
-Anyone can jump on the issues board and grab off bugs to fix. This is probably the best way to become a contributor to Semantic. Be sure to adhere to the style guides when submitting code.
+Qualquer pessoa pode decidir corrigir os bugs sozinhos, em *localhost*. Esta é provavelmente a melhor maneira de se tornar um colaborador do *Semantic*. Contudo, certifique-se de seguir as guias de estilo quando submeter o código.
 
-*   [Create a Pull Request](https://github.com/jlukic/Semantic-UI/compare/)
-*   [View Open Issues](https://github.com/jlukic/Semantic-UI/issues?state=open)
+*   [Solicite um Pull Request](https://github.com/jlukic/Semantic-UI/compare/)
+*   [Veja Questões em aberto](https://github.com/jlukic/Semantic-UI/issues?state=open)
 
-### Expanding UI
+### Expansão UI
 
-Semantic is looking for people to help contribute new core UI components, and suggest extensions for the library.
+*Semantic* busca pessoas para ajudar a contribuir com novos componentes UI para o *core*, e sugerir extensões para a biblioteca.
 
-If you have suggestions for components missing from Semantic which you'd like to see in future versions please add them to our public UI Component board. The current list of upcoming components, and their current development status can be seen on the contributor UI board.
+Se você tiver sugestões de componentes que ainda não tem no *Semantic*, e gostaria de vê-los nas futuras versões, por favor adicione-os ao nosso Quadro Público de Componentes UI. A lista atual de futuros componentes e seu estado atual de desenvolvimento pode ser vista no quadro de Colaborador UI.
 
-#### Visit UI Development Boards
+#### Visite os Quadros de Desenvolvimento UI
 
-[Public](https://trello.com/b/Q8uTLy2T) |
-[Contributor](https://trello.com/b/yVsh5Rds)
+[Público](https://trello.com/b/Q8uTLy2T) |
+[Colaboradores](https://trello.com/b/yVsh5Rds)
 
-## Specification Development
+## Desenvolvimento das Especificações
 
-We're looking currently for ideas on the best way to expand Semantic to include both core library and third party components. This requires creating a component specification which can be used by anyone to create ui components, and a package management system (website or command line) for authors to distribute them.
+Nós buscamos atualmente idéias sobre a melhor maneira de expandir o *Semantic*, para incluir nossa **biblioteca central** com **componentes de terceiros**. Isso requer a criação de uma especificação de componentes que possa ser utilizada por qualquer pessoa para criar componentes UI, e um sistema de gerenciamento de pacotes (site ou linha de comando) para que os autores possam distribuí-los.
 
-These features are very important for the healthy growth of the Semantic ecosystem, and to expand the number of components available to users.
+Esses recursos são muito importantes para o crescimento saudável do ecossistema do *Semantic*, e para expandir o número de componentes disponíveis para os usuários.
 
-#### Visit Community Development Boards
+#### Visite os Quadros de Desenvolvimento da Comunidade
 
-[Public](https://trello.com/b/FZvMsVIM) |
-[Contributor](https://trello.com/b/eOoZwNBQ)
+[Público](https://trello.com/b/FZvMsVIM) |
+[Colaboradores](https://trello.com/b/eOoZwNBQ)
 
 ---
 
-## Development
+## Desenvolvimento
 
-A guide to developing locally
+Um guia para o desenvolvimento em servidor local.
 
 ## Running Locally
 
-It may be useful to run the development docs locally when working on a forked version of semantic, as the docs themselves help in testing out changes to ui components.
+Pode ser útil executar a documentação de desenvolvimento em *localhost* quando se tem uma cópia/*fork* da versão do *Semantic*. Os próprios documentos ajudam a testar as alterações nos Componentes UI.
 
-### 1) Install Node
+### 1) Instalação do Node.JS
 
-Semantic docs are written in DocPad which requires NodeJS. 
+A documentação do *Semantic* é escrita em **DocPad** e requer o **Node.JS**.
 
-Make sure npm does not require sudo to operate, this might cause permissions issues.
+Certifique-se de que o npm não precise de acesso sudo para funcionar, isso pode causar problemas de permissões.
 
-*   [Node JS via Package Manager](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager)
-*   [Installing Node JS without sudo](https://gist.github.com/isaacs/579814)
+*   [Node.JS via Package Manager](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager)
+*   [Instalando Node.JS sem sudo](https://gist.github.com/isaacs/579814)
 
-### 2) Install Dependencies
+### 2) Instalando Dependências
 
 ```bash
 npm install -g docpad
@@ -90,58 +90,59 @@ docpad update; docpad upgrade
 npm install -g grunt-cli
 ```
 
-### 3) Fork Semantic
+### 3) Dê um *Fork* no *Semantic*
 
 [Fork](https://github.com/jlukic/Semantic-UI/fork)
 
-### 4A) Build Semantic
+### 4A) Construa o *Semantic*
 
-In order to have the current version of semantic available inside your local documentation, you will have to build it once with Grunt
+Para ter a versão atual do *Semantic* disponível dentro de sua documentação local, você terá que construí-lo uma vez com **Grunt**.
 
 ```bash
 grunt build
 ```
 
-### 4B) Start Your Server
+### 4B) Inicie o servidor
 
 ```bash
 docpad run
 ```
 
-Docpad should now run an instance of semantic-ui.com locally you can access at `http://localhost:9778`
+**DocPad** agora deve executar uma instância do semantic-ui.com localmente.
+Você pode acessar em `http://localhost:9778`
 
-Note that some asset files might be missing until you run `grunt build` once.
+**Observe que alguns arquivos podem estar faltando até que você execute 'grunt build` uma vez.**
 
-## Fixing Bugs
+## Corrigindo *Bugs*
 
-### Watch Script
+### Observe o Script
 
-If you are working on fixing a UI component that is part of Semantic, your best bet is to work actively on the file in `/src/{type}/{elementname}/` while running a watch script from grunt. This will rebuild the docs after you make changes, so you can see if you have corrected the issue you are fixing.
+Se você está tentando corrigir um componente UI que faz parte do *Semantic*, a sua melhor aposta é a de trabalhar ativamente no arquivo em `/src/{tipo}/{nome do elemento}/` enquanto roda observa o script a partir do *grunt*. Isto irá reconstruir a documentação depois de fazer alterações, de modo que você possa ver se conseguiu corrigir o problema.
 
-To see exactly what this is doing you can check out our [commented gruntfile](https://github.com/jlukic/Semantic-UI/blob/master/Gruntfile.js)
+Para ver exatamente oque isso faz, você pode dar uma olhada no nosso [gruntfile comentado](https://github.com/jlukic/Semantic-UI/blob/master/Gruntfile.js)
 
 ```bash
 grunt
 ```
 
-The watch task is the default grunt task for Semantic, so you can start it quite simply.
+A tarefa de observar o script é a tarefa padrão do *grunt* para o *Semantic*, assim você pode iniciar ele puro e simples.
 
-### Packaging Elements
+### Empacotanto elementos
 
-For convenience there is also a separate grunt command for building minified, packaged, and compressed versions of the library.
+Por conveniência, existe também um comando *grunt* separado para construir *minified* (minificadas), *packages* (pacotes), e *compressed* (compactadas) versões da biblioteca.
 
 ```bash
 grunt build
 ```
 
-## The Future
+## O Futuro
 
 ### UI Dev Kits
 
-We are working to create development kits for writing and distributing third party UI definitions. These, are planned to land after our 1.0 release and allow other developers to contribute ui components or reskins of existing components.
+Estamos trabalhando para criar kits de desenvolvimento para escrever e distribuir definições UI de terceiros. Estes, são planos para o projeto depois da nossa versão 1.0 que permitem que outros desenvolvedores contribuam com componentes UI ou redesign de componentes existentes.
 
-For more information on the development of the UI specification for third party components, please visit our community discussion boards on Trello
+Para mais informações sobre o desenvolvimento da especificação UI para componentes de terceiros, por favor, visite os nossos quadros de discussão da comunidade no Trello
 
-#### Development Boards
-[Public](https://trello.com/b/FZvMsVIM) |
-[Contributor](https://trello.com/b/eOoZwNBQ)
+#### Quadros de Desenvolvimento
+[Público](https://trello.com/b/FZvMsVIM) |
+[Colaboradores](https://trello.com/b/eOoZwNBQ)
