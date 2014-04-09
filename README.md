@@ -19,7 +19,7 @@ Versões RTL especiais são mantidas com a tradução Árabe do *Semantic*.
 ##### Traduções Adicionais
 * 中文翻译 Semantic UI - [GitHub](https://github.com/Semantic-Org/Semantic-UI-zh) - [Website](http://zh.semantic-ui.com/)
 
-* Tradução em Português - [GitHub](https://github.com/Semantic-Org/Semantic-UI-pt-br) - [Website](em breve)
+* Tradução em Português - [GitHub](https://github.com/Semantic-Org/Semantic-UI-pt-br) - [Website](http://br.semantic-ui.com/)
 
 Precisamos de pessoas que possam contribuir com as traduções da documentação do Semantic UI.
 
