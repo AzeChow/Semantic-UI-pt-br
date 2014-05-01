@@ -2,11 +2,17 @@
 
 *Semantic* é uma biblioteca de componentes de interface do usuário (UI) implementada usando um conjunto de especificações baseadas na linguagem natural.
 
-*Semantic UI* está em desenvolvimento constante, então **certifique-se de checar nossas [notas de lançamento](https://github.com/Semantic-Org/Semantic-UI/blob/master/RELEASE%20NOTES.md) para atualizações recentes**.
-
-[![Flattr This](https://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=jlukic&url=https%3A%2F%2Fgithub.com%2Fjlukic%2FSemantic-UI)
+O *Semantic* está em desenvolvimento constante, então **certifique-se de checar nossas [notas de lançamento](https://github.com/Semantic-Org/Semantic-UI/blob/master/RELEASE%20NOTES.md) para atualizações recentes**.
 
 > A Comunidade contribuiu com *plugins* e *ports* para o **Wordpress**, **Angular**, **Dart**, **Knockout**, **Rails**, entre outros que podem ser encontrados na [Página de Integração](https://github.com/Semantic-Org/Semantic-UI/wiki/Integration).
+
+### Status do Projeto
+
+**O Semantic está sendo reformulado para a versão `` 1.0 ``.**
+
+Embora o pacote de pré-lançamento ``0.x.x`` esteja ativo e sendo mantido, os recursos mais importantes, como melhorias no *theming support*, e novos componentes irão vir na versão ``1.0``.
+
+A documentação beta estará disponível em breve para *testers* e *early adopters*.
 
 ## Traduções
 
@@ -50,11 +56,11 @@ Se você preferir fazer o download de tudo em pacote .zip, estão todos elegante
 * [Rodando Docs/Server em Servidor Local](http://br.semantic-ui.com/project/development)
 
 Se você quiser acompanhar o desenvolvimento, por favor [Participe do nosso Grupo no Google](https://groups.google.com/forum/?hl=en#!forum/semantic-ui)
-> Participe também do nosso grupo [Semantic UI Brasil](https://www.facebook.com/groups/1470715986489660/) ;)
+> Participe também do nosso grupo [Semantic UI Brasil](https://www.facebook.com/groups/suibrasil/) ;)
 
 ### Bugs e Problemas
 
-> *Semantic UI* é pronto para produção, mas está em "pré-lançamento" até que ferramentas de compilação e personalização estejam disponíveis, e a documentação esteja completa para todos os componentes.
+> *Semantic UI* já vem pronto para produção, mas está em "pré-lançamento" até que ferramentas de compilação e personalização estejam disponíveis, e a documentação esteja completa para todos os componentes.
 
 Por favor [compartilhe qualquer problema](https://github.com/Semantic-Org/Semantic-UI/issues?state=open) que você tiver. Nós precisamos da sua ajuda para tirar todas as esquisitices.
 
