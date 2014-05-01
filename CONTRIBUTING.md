@@ -20,7 +20,7 @@ Por favor, envie quaisquer *bugs* que você encontrar ao utilizar a biblioteca p
 
 Quando você reportar um *bug*, por favor inclua um conjunto de passos para reproduzir o problema e qualquer informação relacionada, *browser*, sistema operacional, etc. Caso contrário, não poderemos ver o problema, e isso tornará as coisas mais difíceis.
 
-Por favor, crie uma bifurcação deste [jsfiddle](http://jsfiddle.net/pMDsH/) para demonstrar *bugs*.
+Por favor, crie uma cópia deste [jsfiddle](http://jsfiddle.net/pMDsH/) para demonstrar *bugs*.
 
 ### Guia de Estilo
 
@@ -68,6 +68,8 @@ Um guia para o desenvolvimento em servidor local.
 ## Running Locally
 
 Pode ser útil executar a documentação de desenvolvimento em *localhost* quando se tem uma cópia/*fork* da versão do *Semantic*. Os próprios documentos ajudam a testar as alterações nos Componentes UI.
+
+## Instalação no LINUX
 
 ### 1) Instalação do Node.JS
 
@@ -134,6 +136,11 @@ Por conveniência, existe também um comando *grunt* separado para construir *mi
 ```bash
 grunt build
 ```
+
+
+## Instalação no WINDOWS 
+
+> em breve
 
 ## O Futuro
 

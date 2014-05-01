@@ -3702,11 +3702,13 @@ $.fn.checkbox = function(parameters) {
 
         toggle: function(event) {
           module.verbose('Determining new checkbox state');
-          if( module.is.disabled() ) {
-            module.enable();
-          }
-          else if( module.is.enabled() && module.can.disable() ) {
-            module.disable();
+          if( !$input.prop('disabled') ) {
+            if( module.is.disabled() ) {
+              module.enable();
+            }
+            else if( module.is.enabled() && module.can.disable() ) {
+              module.disable();
+            }
           }
         },
         setting: function(name, value) {
@@ -5688,7 +5690,9 @@ $.fn.modal = function(parameters) {
             : function(){}
           ;
           if( !module.is.active() ) {
-            module.cacheSizes();
+            if(module.cache === undefined) {
+              module.cacheSizes();
+            }
             module.set.position();
             module.set.screenHeight();
             module.set.type();
@@ -5964,6 +5968,7 @@ $.fn.modal = function(parameters) {
         },
 
         setting: function(name, value) {
+          module.debug('Changing setting', name, value);
           if( $.isPlainObject(name) ) {
             $.extend(true, settings, name);
           }
@@ -11003,7 +11008,7 @@ $.fn.transition = function() {
             var
               displayType = module.get.displayType()
             ;
-            if(displayType !== 'block') {
+            if(displayType !== 'block' && displayType !== 'none') {
               module.verbose('Setting final visibility to', displayType);
               $module
                 .css({

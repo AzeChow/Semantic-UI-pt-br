@@ -39,7 +39,6 @@
   display: block;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
@@ -56,7 +55,7 @@
 
 /* Hidden */
 .ui.hidden.transition {
-  display: none;
+  display: none !important;
 }
 
 /* Visible */
@@ -125,7 +124,6 @@
 .ui.flip.transition.out {
   -webkit-perspective: 2000px;
   -moz-perspective: 2000px;
-  -ms-perspective: 2000px;
   perspective: 2000px;
 }
 .ui.horizontal.flip.transition.in,

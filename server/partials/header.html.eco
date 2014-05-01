@@ -12,13 +12,13 @@
       <p><%=@document.description %></p>
       <% if @document.type is 'UI Element' or @document.type is 'UI View' or @document.type is 'UI Collection': %>
       <div class="ui basic labeled icon toggle overview button">
-        Definition Mode
+        Definição
         <i class="book icon"></i>
       </div>
       <% end %>
       <% if @document.type is 'UI Module': %>
       <a href="/module.html" class="ui basic labeled icon button">
-        Learn about Modules
+        Leia sobre os Módulos
         <i class="help icon"></i>
       </a>
       <% end %>

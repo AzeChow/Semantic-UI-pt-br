@@ -8,7 +8,7 @@
       <p><%=@document.description %></p>
       <% if @document.type is 'UI Element' or @document.type is 'UI View' or @document.type is 'UI Collection' or @document.type is 'UI Module': %>
       <div class="ui basic labeled icon toggle overview button">
-        Definition
+       Definição
         <i class="book icon"></i>
       </div>
       <% end %>
