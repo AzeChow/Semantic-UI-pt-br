@@ -1,4 +1,4 @@
-# Semantic [![Build Status](https://travis-ci.org/Semantic-Org/Semantic-UI.png)](https://travis-ci.org/Semantic-Org/Semantic-UI)
+# Semantic [![Build Status](https://travis-ci.org/Semantic-Org/Semantic-UI.svg?branch=master)](https://travis-ci.org/Semantic-Org/Semantic-UI)
 
 *Semantic* é uma biblioteca de componentes de interface do usuário (UI) implementada usando um conjunto de especificações baseadas na linguagem natural.
 
