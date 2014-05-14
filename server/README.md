@@ -14,7 +14,7 @@ docpad install eco;
 docpad update; docpad upgrade;
 ```
 
-This node project uses docpad to generate t
+
 Este projeto do *node* usa o *docpad* para gerar os arquivos da documentação estática para o *Semantic UI*.
 
 ### Instalação no WINDOWS
