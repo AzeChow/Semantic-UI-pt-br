@@ -3,7 +3,7 @@ layout      : 'default'
 css         : 'module'
 
 title       : 'UI Modules'
-description : 'Modules are interface elements whose behavior is an essential part of their definition'
+description : 'Módulos são elementos de interface cujo comportamento é uma parte essencial de sua definição'
 type        : 'Semantic'
 ---
 
@@ -13,19 +13,19 @@ type        : 'Semantic'
 
   <div class="ui tab" data-tab="overview">
 
-    <p>All official javascript modules in Semantic are designed using a singular design pattern. This pattern allows several useful features common to all javascript components</p>
+    <p>Todos os módulos javascript oficiais do Semantic são projetados usando um único padrão de design. Este padrão permite o uso de vários recursos úteis comum a todos os componentes javascript</p>
     <div class="ui relaxed list">
       <div class="item">
         <i class="check icon"></i>
         <div class="content">
-          <div class="header">Run-time Performance Analysis</div>
-          <p>Semantic modules all provide the ability to log performance traces to the console, allowing you to see which aspects of the module are more or less performant and to track total init time <code>onDomReady</code></p>
+          <div class="header">Tempo de execução de Análise de Desempenho</div>
+          <p> Todos os módulos Semantic fornecem a capacidade para o mostrar o log dos traços de desempenho no console, permitindo que você veja quais aspectos do módulo tem maior ou menor desempenho e acompanhe o total de tempo de inicialização quando o DOM estiver pronto para leitura (<code>onDomReady</code>)</p>
         </div>
       </div>
       <div class="item">
         <i class="check icon"></i>
         <div class="content">
-          <div class="header">Human Readable Traces</div>
+          <div class="header">Human-Readable Traços</div>
           <p>Unlike other component libraries that hide explanations of behavior in inline comments which can only be read by combing the source, semantic modules provide run-time debug output to the JavaScript console telling you what each component is doing as it is doing it.</p>
         </div>
       </div>

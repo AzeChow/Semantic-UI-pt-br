@@ -15,7 +15,7 @@ type   : 'Semantic'
   <div class="ui page grid">
     <div class="column">
       <div class="introduction">
-        <h1 class="ui header">Semantic UI <!--<a class="ui black label" href="https://github.com/semantic-org/Semantic-UI/blob/master/RELEASE%20NOTES.md">0.16.1</a>--></h1>
+        <h1 class="ui header">Semantic UI <a class="ui black label" href="https://github.com/semantic-org/Semantic-UI/blob/master/RELEASE%20NOTES.md">0.19.0</a></h1>
         <h2 class="ui header">UI é o vocabulário da WEB.</h2>
         <p>O Semantic dá poder a designers e desenvolvedores criando um vocabulário comum para UI.</p>
         <a class="ui black large labeled launch icon button"><i class="icon list layout"></i> UI View</a>
@@ -46,7 +46,7 @@ type   : 'Semantic'
         </div>
       </h2>
       <div class="ui message">
-        O Semantic é agnóstico quanto às tags, e você pode usar <a href="https://developer.mozilla.org/pt-BR/docs/HTML/HTML5/HTML5_element_list" target="_blank">qualquer tag html que der na telha</a> com os elementos UI.
+        O Semantic não se interessa pelas tags e você pode usar <a href="https://developer.mozilla.org/pt-BR/docs/HTML/HTML5/HTML5_element_list" target="_blank">qualquer tag html que der na telha</a>.
       </div>
       <div class="ui stackable two column grid">
         <div class="column">
@@ -183,7 +183,7 @@ type   : 'Semantic'
     </div>
     </div>
     <div class="ui divider"></div>
-    <h3 class="ui header">Hmm talvez ele deva aponta para o conteúdo aqui em baixo</h3>
+    <h3 class="ui header">Hmm talvez ele deva apontar para o conteúdo aqui em baixo</h3>
     <div class="code" data-preview="true" data-type="html">
     <div class="ui pointing menu">
       <div class="header item">Site.com</div>
@@ -275,13 +275,13 @@ type   : 'Semantic'
   <div class="item">jack lukic 2013</div>
   <a href="https://github.com/semantic-org/Semantic-UI" class="item">Github</a>
   <div class="item">
-    Possível graças à <a href="http://www.quirky.com" target="_blank">Quirky.com</a>
+    Possível graças a <a href="http://www.quirky.com" target="_blank">Quirky.com</a>
   </div>
   <div class="item">
     Testado com <a href="http://www.browserstack.com" target="_blank">Browser Stack</a>
   </div>
   <div class="item">
-    Doc. traduzida por <a href="//facebook.com/groups/suibrasil">Marcos Freitas</a>
+    Doc. traduzida por <a href="//facebook.com/groups/suibrasil">SUI Brasil</a>
   </div>
 
 </div>

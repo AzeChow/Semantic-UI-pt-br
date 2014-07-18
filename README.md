@@ -1,4 +1,4 @@
-# Semantic [![Build Status](https://travis-ci.org/Semantic-Org/Semantic-UI.svg?branch=master)](https://travis-ci.org/Semantic-Org/Semantic-UI)
+# Semantic [![Build Status](https://travis-ci.org/Semantic-Org/Semantic-UI.svg?branch=master)](https://travis-ci.org/Semantic-Org/Semantic-UI?branch=master)
 
 *Semantic* é uma biblioteca de componentes de interface do usuário (UI) implementada usando um conjunto de especificações baseadas na linguagem natural.
 
@@ -10,9 +10,13 @@ O *Semantic* está em desenvolvimento constante, então **certifique-se de checa
 
 **O Semantic está sendo reformulado para a versão `` 1.0 ``.**
 
+Ainda que o Semantic esteja oficialmente em "pré-lançamento", já é usado na produção em grandes sites como o [Quirky](http://www.quirky.com) e [The New Republic](http://www.newrepublic.com)
+
 Embora o pacote de pré-lançamento ``0.x.x`` esteja ativo e sendo mantido, os recursos mais importantes, como melhorias no *theming support*, e novos componentes irão vir na versão ``1.0``.
 
 A documentação beta estará disponível em breve para *testers* e *early adopters*.
+
+A documentação beta está disponível em [http://beta.semantic-ui.com](http://beta.semantic-ui.com) para *testers* e *early adopters*. O canal beta está atualmente disponível em um [branch css](https://github.com/Semantic-Org/Semantic-UI/tree/css)
 
 ## Traduções
 
@@ -25,7 +29,7 @@ Versões RTL especiais são mantidas com a tradução Árabe do *Semantic*.
 ##### Traduções Adicionais
 * 中文翻译 Semantic UI - [GitHub](https://github.com/Semantic-Org/Semantic-UI-zh) - [Website](http://zh.semantic-ui.com/)
 
-* Tradução em Português - [GitHub](https://github.com/Semantic-Org/Semantic-UI-pt-br) - [Website](http://br.semantic-ui.com/)
+* Tradução em Português - [GitHub](https://github.com/Semantic-Org/Semantic-UI-pt-br) - [Website](http://br.semantic-ui.com/) - [Grupo no Facebook](https://www.facebook.com/groups/suibrasil/)
 
 Precisamos de pessoas que possam contribuir com as traduções da documentação do Semantic UI.
 
@@ -43,10 +47,10 @@ Se você preferir fazer o download de tudo em pacote .zip, estão todos elegante
 
     http://semantic-ui.com/build/semantic.zip
 
-*Semantic* também está disponível a partir de uma CDN:
+### *Semantic* também está disponível a partir de CDNs:
 
-* [Hospedado no CDN do CloudFlare](http://cdnjs.com/libraries/semantic-ui/)
-* [Hospedado no BootCDN](http://open.bootcss.com/semantic-ui/) (Chinês)
+* [Hospedado no JSDelivr](http://www.jsdelivr.com/#!semantic-ui)
+* [Hospedado no BootCDN](http://open.bootcss.com/semantic-ui/) (Em Chinês)
 
 ## Aprenda Mais
 

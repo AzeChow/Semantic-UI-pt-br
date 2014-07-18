@@ -398,8 +398,8 @@ type        : 'UI Collection'
   <h3 class="ui header">Grid</h3>
 
   <div class="example">
-    <h4 class="ui header">Specifying Column Count Per Row</h4>
-    <p>A grid can have a different number of columns per row</p>
+    <h4 class="ui header">Specifying Grid Column Count</h4>
+    <p>A grid can split its columns evenly</p>
     <div class="ui two column grid">
       <div class="column">
         <div class="ui fluid form segment">
@@ -501,7 +501,7 @@ type        : 'UI Collection'
 
   <div class="example">
     <h4 class="ui header">Doubling Grid</h4>
-    <p>A grid can double its</p>
+    <p>A grid can double its column sizes when being viewed at tablet or mobile resolutions</p>
     <div class="ui text message info ignore">
       <i class="icon heart"></i> A grid will round its columns to the closest reasonable value when doubling, for example a <code>five column grid</code> will double <code>1 mobile, 3 tablet, 5 desktop</code>
     </div>
@@ -635,6 +635,42 @@ type        : 'UI Collection'
   </div>
 
   <h3 class="ui header">Rows</h3>
+
+  <div class="example">
+    <h4 class="ui header">Specifying Row Column Count</h4>
+    <p>A row can split its columns evenly</p>
+    <div class="ui grid">
+      <div class="two column row">
+        <div class="column">
+          <div class="ui segment">
+            Two
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui segment">
+            Two
+          </div>
+        </div>
+      </div>
+      <div class="three column row">
+        <div class="column">
+          <div class="ui segment">
+            Three
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui segment">
+            Three
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui segment">
+            Three
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div class="example">
     <h4 class="ui header">Responsive to Device</h4>
@@ -873,6 +909,10 @@ type        : 'UI Collection'
   <div class="example">
     <h4 class="ui header">Column Width</h4>
     <p>A column can vary in width taking up more than a single grid column.</p>
+
+    <div class="ui info message">
+      Column width is based off a 16 column grid, even if you are using a different row or grid column count, for instance a <code>three wide column</code> inside a <code>three column grid</code>  <b>will only take up three-sixteenths of the grid width</b>.
+    </div>
     <div class="ui grid">
       <div class="three wide column">
         <div class="ui segment"><b>Column One</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum iaculis sapien.</div>

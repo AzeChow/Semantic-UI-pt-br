@@ -1,5 +1,46 @@
 ## RELEASE NOTES
 
+### Version 0.19.0 - July 3, 2014
+
+**Enhancements**
+- **Transition** - Adds "fade in left/right" variations to match "fade up/down" **Thanks AdamMaras**
+
+**Fixes**
+- **Accordion** - Fixes incompatibilities with ``ui list`` when used inside a ``ui accordion``, fixes issues with menu accordion display in some circumstances
+- **Menu** - Fixes ``ui inverted secondary pointing menu`` to have correct pointer color for all color variations **Thanks AdamMaras**
+- **Docs** - Language clarified for menu/rating definition **Thanks jnbt/ewiner**
+
+### Version 0.18.0 - June 6, 2014
+
+**Enhancements**
+- **Modal** - Modals now focus on first input if available **Thanks Knotix**
+- **RTL** - RTL now uses RTLCSS instead of CSSJanus **Thanks MohammadYounes**
+
+**Fixes**
+
+- **Menu** - Fixes bug where pointing menu would sometimes appear below content **Thanks Skysplit**
+- **Dropdown** - Fixes dropdown 'is animating' with dropdowns when CSS animations were not included **Thanks nathankot**
+- **Accordion** - Accordion title does not know have to be :first-child to receive proper border **Thanks BigBlueHat**
+- **Popup** - Fixes javascript animation of popup missing easing dependency
+- **Label** - Fixes border radius on bottom left label
+
+**Docs**
+- **Modal** - Docs now have HTML examples
+- **Docs** - Fixes issue with overview mode not clearing code examples
+- **CSS Guide** - Fixes typos in css guide
+
+
+### Version 0.17.0 - May 9, 2014
+
+**Enhancements**
+- **Dropdown** - Dropdowns can now receive focus and be navigated with a keyboard **Thanks Musatov**
+- **Popup** - Popup now has an ``onRemove`` callback after removing element from DOM
+
+**Fixes**
+- **Modal** - Element does not accurately close other modals when initialized at different times **Thanks nojhamster**
+- **Modal** - Fixes javascript error for browsers that don't support CSS animations if jquery.easing is not included
+- **Form, Input** - Fixes ``ui input`` to work correctly inside ``inline field``
+
 ### Version 0.16.1 - April 22, 2014
 
 **Fixes**

@@ -18,9 +18,9 @@ type        : 'Introdução UI'
 
     <h2 class="ui header">
       Construa layouts responsivos de forma fácil
-      <div class="sub header">Desenhado completamente com EM</div>
+      <div class="sub header">Desenhado completamente com <code>EM</code></div>
     </h2>
-    <p>Cada componente é definido usando <code>em</code> e <code>rem</code> para eles possam ser redimensionados de um jeito fácil. Quer um menu para ficar menor no celular? Basta mudar o tamanho da font usando media query. </p>
+    <p>Cada componente é definido usando <code>em</code> e <code>rem</code> para que eles possam ser redimensionados de um jeito fácil. Quer um menu para ficar menor no celular? Basta mudar o tamanho da font usando media query. </p>
 
     <h2 class="ui header">
       Auto Explicação
@@ -34,7 +34,7 @@ type        : 'Introdução UI'
       Tag Ambivalente
       <div class="sub header">Use qualquer tag que você quiser.</div>
     </h2>
-    <p>As definições de interface no Semantic são tag ambivalente. Isso significa que você pode usar div, article, section, span sem afetar a exibição do elemento. Mas Tags especiais como table, td ainda carregam um significado especial em determinadas circunstâncias.</p>
+    <p>As definições de interface no Semantic são do tipo "tag ambivalente". Isso significa que você pode usar div, article, section, span sem afetar a exibição do elemento. Mas Tags especiais como table, td ainda carregam um significado especial em determinadas circunstâncias.</p>
 
     <h2 class="ui header">
      Ferramentas poderosas para expressar grupos e coleções.

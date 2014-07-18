@@ -138,7 +138,7 @@ grunt build
 ```
 
 
-## Instalação no WINDOWS 
+## Instalação no WINDOWS
 
 > em breve
 
