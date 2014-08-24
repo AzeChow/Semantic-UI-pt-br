@@ -19,6 +19,8 @@ semanticui/
 *~
 *.sass-cache
 *.ruby-version
+*.new
+*.bkp
 
 # OS or Editor folders
 .DS_Store
